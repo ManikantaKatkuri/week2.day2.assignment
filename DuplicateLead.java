@@ -9,7 +9,7 @@ public class DuplicateLead {
 
 	public static void main(String[] args) throws InterruptedException {
 		/*http://leaftaps.com/opentaps/control/main	 
-		
+
 		1	Launch the browser
 		2	Enter the username
 		3	Enter the password
