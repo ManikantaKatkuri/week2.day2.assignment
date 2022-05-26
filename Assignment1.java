@@ -20,10 +20,6 @@ public class Assignment1 {
 		driver.findElement(By.xpath("//div[@class='_6ltg']/a[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']")).click();
 		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("FirstName");
 		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("LastName");
-
-		//	driver.findElement(By.xpath("//input[@name='reg_email__']/preceding-sibling::div[@class='placeholder']")).sendKeys("9874563245");
-		//	driver.findElement(By.xpath("//div[@class='placeholder']/following-sibling::input[@name='reg_passwd__']")).sendKeys("TestLeaf123");
-
 		driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("9874563245");
 		driver.findElement(By.xpath("//input[@name='reg_passwd__']")).sendKeys("TestLeaf123");	
 		WebElement ele1 = driver.findElement(By.xpath("//select[@id='day']"));
@@ -38,7 +34,5 @@ public class Assignment1 {
 		driver.findElement(By.xpath("//input[@value='2']/preceding-sibling::label[@class='_58mt']")).click();
 		Thread.sleep(3000);
 		driver.close();
-
 	}
-
 }
